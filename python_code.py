@@ -1,5 +1,12 @@
 from collections import namedtuple
 
+
+print("Hello from new code")
+
+def greet(name):
+    print(f"Hello, {name}")
+
+
 # Define a named tuple
 chary = namedtuple('chary', ['x', 'y'])
 p = chary(10, 20)
@@ -14,7 +21,10 @@ dq.appendleft(0)  # Add to left
 dq.append(4)      # Add to right
 print(dq)  
 
-	********************************
+
+print("hi jana")
+
+********************************
 from collections import Counter
 
 cnt = Counter(['a', 'b', 'a', 'c', 'b', 'a'])
@@ -476,7 +486,7 @@ ctr = fun(5)
 for n in ctr:
     print(n)
     
-    #Print(hello world)
+    #Print(hello world................)
     ANS :
     esktop/Demo/1.py
 1
